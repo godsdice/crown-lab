@@ -365,6 +365,10 @@ cite {
   min-height: 300px
 }
 
+.cl-people__item:not(:first-child) {
+  margin-top: 5rem;
+}
+
 .cl-person-card__photo {
   margin-right: 2rem;
   width: 100%
