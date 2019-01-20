@@ -300,7 +300,7 @@ cite {
 }
 
 .cl-main__paragraph {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   line-height: 2.4rem;
 }
 
@@ -459,6 +459,43 @@ cite {
 
 .cl-wrapper-indent--lg {
   margin: 0 3rem;
+}
+
+
+.cl-article__header {
+  margin-bottom: 2rem;
+}
+
+.cl-article__title {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.cl-article__subtitle {
+  font-weight: normal;
+  font-style: italic;
+}
+.cl-article:not(:last-child) {
+  margin-bottom:6rem;
+}
+
+.cl-twitter {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.cl-imageblock {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: auto;
+}
+
+.cl-imageblock__image {
+  margin-top: 3rem;
 }
 
 @media screen and (min-width: 800px) {
